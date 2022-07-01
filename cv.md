@@ -24,6 +24,7 @@ I will do my best.
 + React (basic level knowledge)
 + Git, GitHub
 + Figma (like a web developer)
+
 ## Code examples
 ``` 
 function BubbleSort(arr) {
