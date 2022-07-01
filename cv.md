@@ -43,4 +43,17 @@ function BubbleSort(arr) {
   }
   return localArr;
 }
-```
+```   
+
+## Experience  
+I have some projects in GitHub, but they have not done yet.    
+There are several implementations of sorting algorithms in codesandbox.  
+
+## Education  
+State Technical University named after R.E. Alekseeva, Nizhny Novgorod    
+Faculty of Applied mathematics     
+2020 - 2021  
+
+## Languages  
+Russian - Native  
+English - B1  
