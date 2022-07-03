@@ -2,8 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maria Krupenina</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="content">
+    <header class ="intro">
+        <img src="icons/photo_1.jpg"  class="intro__photo" style = "max-width: 200px;" alt="photo">
+        <h1 id="name">Maria Krupenina</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5 (Semantic tags)</li>
+                    <li>CSS3 (BEM methodology, flexbox, specificity)</li>
+                    <li>JavaScript (ES6)</li>
+                    <li>React (basic level knowledge)</li>
+                    <li>Git, GitHub</li>
+                    <li>Figma (like a web developer)</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Contact information</h2>
+                <ul>
+                    <li><b>GitHub:</b>
+                        <a href="https://github.com/Sindoraii" target="_blank">https://github.com/Sindoraii </a>
+                    </li>
+                    <li><b>Codesandbox:</b>
+                        <a href="https://codesandbox.io/u/nifertaria " target="_blank">https://codesandbox.io/u/nifertaria </a>
+                    </li>
+                    <li>
+                        <b>E-mail:</b> marise.sindorai@gmail.com
+                    </li>
+                    <li>
+                        <b>Telegram:</b> @sindoraii
+                    </li>
+                    <li>
+                        <b>Discord:</b>@Sindorai#7322
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - B1</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>About Myself</h2>
+                <p>
+                    Web Development is very interesting for me, because<br>
+                    I can see result of my working.<br>
+                    I`m learning CSS,HTML,JS and React at now.<br>
+                    I know is not a simple way,<br>
+                    but I am prepared to hard work for better my skills.<br>
+
+                    I have strong motivation to get any job for experience.Nowadays, it is a main goal.<br>
+
+                    I will do my best.<br>
+                </p>
+            </article>
+            <article>
+                <h2>Education</h2>
+                <p>
+                    State Technical University named after R.E. Alekseeva, Nizhny Novgorod<br>
+                    Faculty of Applied mathematics<br>
+                    2020 - 2021
+                </p>
+            </article>
+            <article>
+                <h2>Experience</h2>
+                <p>
+                    I have some projects in GitHub, but they have not done yet.<br>
+                    There are several implementations of sorting algorithms in codesandbox. <a href="https://codesandbox.io/dashboard/all/sorting%20algorithms?workspace=6a515fc9-e0f3-44ec-a553-d7b7c6f5f260" target="_blank">Link to work</a>
+                </p>
+            </article>
+            <article>
+                <h2>Code examples</h2>
+                <pre>
+                    <code>
+function BubbleSort(arr) {
+  let localArr = [...arr];
+  let flag = true;
+  while (flag) {
+    flag = false;
+    for (let i = 0; i < localArr.length; i++) {
+      if (localArr[i] > localArr[i + 1]) {
+        let saveValue = localArr[i];
+        localArr[i] = localArr[i + 1];
+        localArr[i + 1] = saveValue;
+        flag = true;
+      }
+    }
+  }
+  return localArr;
+}
+                    </code>
+                </pre>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="#name">Maria Krupenina</a>
+            <a href="https://github.com/Sindoraii" target="_blank">My GitHub</a>
+        </nav>
+        <p>© 2022</p>
+        <img src="icons/logo-rsschool3.png" alt="logo-rsschool" style="width: 140px; height: 50px;">
+    </footer>
+</div>
 </body>
 </html>
