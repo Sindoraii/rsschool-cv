@@ -1,0 +1,1 @@
+https://sindoraii.github.io/rsschool-cv/
