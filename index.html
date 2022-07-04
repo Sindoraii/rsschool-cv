@@ -11,11 +11,16 @@
     <header class ="intro">
         <img src="icons/photo_1.jpg"  class="intro__photo" style = "max-width: 200px;" alt="photo">
         <h1 id="name">Maria Krupenina</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
     <main>
-        <section>
+        <div>
             <article>
-                <h2>Skills</h2>
+                <h2 id="skills">Skills</h2>
                 <ul>
                     <li>
                         <img src="icons/icons8-html-5.svg" alt="HTML5 logo">
@@ -46,7 +51,7 @@
                 </ul>
             </article>
             <article>
-                <h2>Contact information</h2>
+                <h2 id="contact">Contact information</h2>
                 <ul>
                     <li><b>GitHub:</b>
                         <a href="https://github.com/Sindoraii" target="_blank">https://github.com/Sindoraii </a>
@@ -72,10 +77,10 @@
                     <li>English - B1</li>
                 </ul>
             </article>
-        </section>
-        <section>
+        </div>
+        <div>
             <article>
-                <h2>About Myself</h2>
+                <h2 id="about">About Myself</h2>
                 <p>
                     Web Development is very interesting for me, because<br>
                     I can see result of my working.<br>
@@ -112,7 +117,7 @@ function BubbleSort(arr) {
   let flag = true;
   while (flag) {
     flag = false;
-    for (let i = 0; i < localArr.length; i++) {
+    for (let i = 0; i &lt; localArr.length; i++) {
       if (localArr[i] > localArr[i + 1]) {
         let saveValue = localArr[i];
         localArr[i] = localArr[i + 1];
@@ -126,13 +131,11 @@ function BubbleSort(arr) {
                     </code>
                 </pre>
             </article>
-        </section>
+        </div>
     </main>
     <footer>
-        <nav>
-            <a href="#name">Maria Krupenina</a>
-            <a href="https://github.com/Sindoraii" target="_blank">My GitHub</a>
-        </nav>
+        <a href="#name">Maria Krupenina</a>
+        <a href="https://github.com/Sindoraii" target="_blank">My GitHub</a>
         <p>© 2022</p>
         <img src="icons/logo-rsschool3.png" alt="logo-rsschool" style="width: 140px; height: 50px;">
     </footer>
