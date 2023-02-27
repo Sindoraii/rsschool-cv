@@ -10,7 +10,7 @@
 Web Development is very interesting for me, because  
 I can see result of my working.         
 I`m learning CSS,HTML,JS and React at now.     
-I know is not a simple way,  
+I know it is not a simple way,  
 but I am prepared to hard work for better my skills.
 
 I have strong motivation to get any job for experience.Nowadays, it is a main goal.  
@@ -46,8 +46,8 @@ function BubbleSort(arr) {
 ```   
 
 ## Experience  
-I have some projects in GitHub, but they have not done yet.    
-There are several implementations of sorting algorithms in codesandbox.  
+I have some projects in GitHub.    
+There are several implementations of sorting algorithms and other features in codesandbox.  
 
 ## Education  
 State Technical University named after R.E. Alekseeva, Nizhny Novgorod    
